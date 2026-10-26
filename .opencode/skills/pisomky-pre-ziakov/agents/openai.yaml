@@ -1,0 +1,6 @@
+interface:
+  display_name: "Písomky pre žiakov"
+  short_description: "Písomky v DOCX priamo vo WordCrafte"
+  default_prompt: "Použi $pisomky-pre-ziakov a vytvor písomku ako DOCX vo WordCrafte."
+policy:
+  allow_implicit_invocation: true

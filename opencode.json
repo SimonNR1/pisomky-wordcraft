@@ -1,0 +1,11 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "wordcraft": {
+      "type": "local",
+      "command": ["powershell.exe", "-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "./scripts/start-wordcraft-mcp.ps1"],
+      "enabled": true,
+      "timeout": 60000
+    }
+  }
+}
