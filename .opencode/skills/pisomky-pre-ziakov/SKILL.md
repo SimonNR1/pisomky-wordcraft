@@ -32,9 +32,17 @@ Následne zisti predstavu o úlohách a zdrojoch:
 
 > Máš predstavu o úlohách, alebo ich mám navrhnúť sám? Mám čerpať z konkrétnej učebnice, poznámok, súborov alebo odkazu?
 
-Nakoniec zisti vzor vzhľadu a potrebu kľúča:
+Nakoniec zisti vzor vzhľadu a potrebu kľúča. Vzor rieš výhradne bežnou správou v chate, kde môže používateľ voľne napísať predstavu alebo priložiť súbor či obrázok:
 
-> Máš vzor písomky, podľa ktorého mám upraviť vzhľad? Chceš aj samostatný kľúč správnych riešení s bodovaním?
+> Ak máš vzor písomky, prilož ho sem do chatu alebo mi opíš, ako má vyzerať. Ak vzor nemáš, napíš „bez vzoru“.
+
+Na vzor ani jeho opis nepoužívaj otázkový widget, formulár, tlačidlá možností ani nástroj na vyžiadanie používateľského vstupu. Ak používateľ už vzor spomenul alebo priložil, nadviaž naň v bežnom chate a nepýtaj sa znova, či ho má. Ak súbor ešte neposlal, bežnou správou ho vyzvi na priloženie a počkaj naň. Vzor nesmieš skombinovať s inou otázkou do widgetu.
+
+Ostatné otázky (ročník, predmet, téma, počet strán, náročnosť, úlohy, zdroje, pomôcky a kľúč) môžu používať otázkový widget, ak ho hostiteľské prostredie podporuje. Inak ich polož v bežnom chate. Žiadosť o priloženie akéhokoľvek súboru vždy patrí do bežného chatu.
+
+Potrebu kľúča môžeš zistiť samostatnou otázkou vo widgete:
+
+> Chceš aj samostatný kľúč správnych riešení s bodovaním?
 
 Ak pomôcky ovplyvňujú riešenie alebo náročnosť konkrétnej témy, pripoj k otázke o úlohách krátku otázku „Aké pomôcky môžu žiaci používať — napríklad kalkulačku, tabuľky alebo slovník?“ Inak ju nepokladaj povinne. Dohodnuté pomôcky uveď do pokynov písomky a prispôsob im úlohy. Pri nejasnosti nenavrhuj úlohy, ktorých riešiteľnosť závisí od nepotvrdenej pomôcky.
 

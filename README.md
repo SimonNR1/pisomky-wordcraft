@@ -30,6 +30,8 @@ WordCraft sa pri štarte MCP otvorí automaticky. Skript používa existujúcu i
 
 Už zodpovedané otázky preskočí. Ak je pripojenie pripravené, začne pracovať bez ďalšieho schvaľovania. Inštalácia a zmena konfigurácie vyžadujú súhlas. Bežné povolenia OpenCode môžu byť vyžiadané samostatne podľa tvojich nastavení.
 
+Vzor vzhľadu písomky sa rieši bežnou správou v chate: môžeš ho opísať alebo priložiť súbor či obrázok. Otázka na vzor nebude v otázkovom widgete. Ostatné otázky môžu používať widget podľa možností aplikácie.
+
 Príklad kompletného zadania:
 
 > Použi skill pisomky-pre-ziakov. Vytvor písomku z matematiky pre 5. ročník ZŠ na zaokrúhľovanie na 100, 1 000, 10 000, 100 000 a 1 000 000. Jedna A4, ľahká až stredná náročnosť. Navrhni vlastné úlohy, bez vzoru. Sprav aj samostatný učiteľský kľúč. Súbory ulož do priečinka vystupy.
