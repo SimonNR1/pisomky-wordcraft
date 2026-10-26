@@ -8,6 +8,7 @@ Slovenský skill na vytváranie písomiek pre žiakov v OpenCode. Dokument sa tv
 - Úlohy podľa ročníka, témy, náročnosti a dodaných materiálov.
 - Voliteľný kľúč správnych riešení ako samostatný `.docx`.
 - Bodovanie iba v učiteľskom kľúči; žiacka verzia je bez bodov.
+- Každý dokument vo vlastnom viditeľnom okne WordCraftu: písomka zostáva otvorená aj pri tvorbe kľúča. Pri staršej verzii sa pre ďalší dokument používa samostatná aplikácia a MCP relácia na inom lokálnom porte.
 - Internú kontrolu riešení, rozloženia a počtu strán.
 
 ## Nastavenie na notebooku s Windows

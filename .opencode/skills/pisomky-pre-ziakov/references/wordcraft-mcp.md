@@ -60,6 +60,8 @@ Použi tento sled, ak používateľ chce sledovať tvorbu:
 7. oprav layout v živom dokumente, ak počet strán alebo vzhľad nesedia;
 8. znovu ulož a nechaj finálny dokument otvorený vo WordCrafte.
 
+Pre každý výstup použi samostatné viditeľné okno. Over, či `new_document` v nainštalovanej verzii skutočne vytvára nové okno. Ak používa to isté okno, pre kľúč alebo ďalší variant spusti novú viditeľnú aplikáciu s iným voľným portom a samostatný `wordcraft-cli mcp --connect 127.0.0.1:PORT`. Port vyber po overení dostupnosti; nespoliehaj sa na pevný predpoklad, že je voľný. Každá inštancia používa svoj vlastný control kľúč, ktorý načíta príslušný CLI bridge; kľúče nevypisuj. Príkazy smeruj len do relácie priradenej k danému súboru. Existujúce okno písomky nechaj otvorené. Jedno spoločné MCP pripojenie nezaručuje viac okien a samotné prepojenie aktívneho dokumentu túto požiadavku nespĺňa.
+
 Headless vytvorenie môže byť iba diagnostická alebo núdzová cesta. Nepouži ho ako finálny workflow, ak používateľ požaduje, aby videl tvorbu v aplikácii, pokiaľ s tým výslovne nesúhlasí.
 
 ## Súbory a bezpečnosť

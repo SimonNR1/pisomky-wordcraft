@@ -140,6 +140,14 @@ Počet strán je požiadavka na skutočný layout dokumentu, nie iba na množstv
 
 Predvolený výstup je jeden žiacky `.docx` otvorený vo WordCrafte.
 
+### Samostatné okno pre každý dokument
+
+Každý vytvorený dokument musí mať vlastné viditeľné okno WordCraftu. Písomka, učiteľský kľúč a prípadné varianty musia zostať súčasne otvorené, každý vo svojom okne. Nestačí prepínať dokumenty v jednom okne alebo na konci znovu otvoriť písomku namiesto kľúča.
+
+Pred tvorbou ďalšieho dokumentu ulož aktuálny dokument a over jeho cestu. Použi otvorenie nového dokumentového okna, ak ho nainštalovaná verzia podporuje; over výsledok, nespoliehaj sa iba na názov `new_document`. Ak nové dokumenty nahrádzajú obsah toho istého okna, spusti pre ďalší dokument samostatnú viditeľnú inštanciu WordCraftu s vlastným voľným lokálnym control portom a pripoj k nej samostatnú MCP reláciu. Vytvorenie ďalšej pripravenej relácie je bežná súčasť tvorby a nevyžaduje opakovaný súhlas.
+
+Udržuj mapovanie výstupnej cesty na dokumentové ID alebo príslušnú inštanciu, control port a MCP reláciu. Pred každým čítaním, zápisom a uložením over správny cieľ. V prostredí s jediným MCP pripojením nikdy nezamieňaj dokumenty potichu: použi podporované samostatné relácie alebo oznám konkrétne obmedzenie. Nezatváraj okná hotových dokumentov. Na konci over, že všetky požadované dokumenty majú samostatné okná a správne názvy súborov.
+
 Ak používateľ požiada o ďalší výstup, vytvor ho oddelene:
 
 - učiteľský kľúč s riešeniami a bodovaním;
@@ -159,6 +167,7 @@ Pred odovzdaním potvrď internou kontrolou:
 
 - dokument je uložený ako `.docx`;
 - WordCraft je otvorený na finálnom dokumente;
+- každý výstup vrátane učiteľského kľúča je otvorený vo vlastnom viditeľnom okne WordCraftu a písomka zostala otvorená počas tvorby kľúča;
 - skutočný počet strán zodpovedá zadaniu alebo je odchýlka oznámená;
 - všetky úlohy sú čitateľné, jednoznačné a primerané ročníku;
 - každá úloha bola interne vyriešená a prípadný odovzdaný kľúč zodpovedá finálnemu zadaniu;
