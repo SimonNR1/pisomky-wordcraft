@@ -5,6 +5,7 @@ Slovenský skill na vytváranie písomiek pre žiakov v OpenCode. Dokument sa tv
 ## Čo pripraví
 
 - Písomku ako upraviteľný `.docx` na požadovaný počet strán A4.
+- Automatické uloženie do `Dokumenty/Pisomky/<trieda>/`, napríklad `Dokumenty/Pisomky/5.A/`. Písomka aj kľúč sú spolu v priečinku triedy; skutočná cesta Dokumentov zohľadňuje aj OneDrive.
 - Úlohy podľa ročníka, témy, náročnosti a dodaných materiálov.
 - Voliteľný kľúč správnych riešení ako samostatný `.docx`.
 - Bodovanie iba v učiteľskom kľúči; žiacka verzia je bez bodov.
@@ -24,7 +25,7 @@ WordCraft sa pri štarte MCP otvorí automaticky. Skript používa existujúcu i
 
 ## Aké otázky položí
 
-1. Ročník, predmet a téma.
+1. Trieda (napríklad 5.A), predmet a téma; pri zadaní iba ročníka upresní triedu pre uloženie.
 2. Počet strán a náročnosť.
 3. Predstava o úlohách a zdroje; podľa potreby povolené pomôcky.
 4. Vzor vzhľadu a záujem o samostatný kľúč riešení.
@@ -35,7 +36,7 @@ Vzor vzhľadu písomky sa rieši bežnou správou v chate: môžeš ho opísať 
 
 Príklad kompletného zadania:
 
-> Použi skill pisomky-pre-ziakov. Vytvor písomku z matematiky pre 5. ročník ZŠ na zaokrúhľovanie na 100, 1 000, 10 000, 100 000 a 1 000 000. Jedna A4, ľahká až stredná náročnosť. Navrhni vlastné úlohy, bez vzoru. Sprav aj samostatný učiteľský kľúč. Súbory ulož do priečinka vystupy.
+> Použi skill pisomky-pre-ziakov. Vytvor písomku z matematiky pre triedu 5.A ZŠ na zaokrúhľovanie na 100, 1 000, 10 000, 100 000 a 1 000 000. Jedna A4, ľahká až stredná náročnosť. Navrhni vlastné úlohy, bez vzoru. Sprav aj samostatný učiteľský kľúč.
 
 ## Riešenie problémov
 

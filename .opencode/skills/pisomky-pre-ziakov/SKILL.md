@@ -22,7 +22,9 @@ Pri požiadavke typu „vytvor písomku“ najprv skontroluj, či už používat
 
 Najprv zisti ročník, predmet a tému:
 
-> Pre ktorý ročník, z akého predmetu a na akú tému má byť písomka?
+> Pre ktorú triedu (napríklad 5.A), z akého predmetu a na akú tému má byť písomka?
+
+Z označenia triedy odvoď ročník, ak je jednoznačný. Ak používateľ uvedie len ročník, napríklad „5. ročník“, zisti presné označenie triedy pre priečinok uloženia. Ak písomka platí pre celý ročník alebo trieda nemá písmeno, použi označenie ako `5.rocnik`; nevymýšľaj písmeno triedy.
 
 Potom zisti rozsah a náročnosť:
 
@@ -104,7 +106,7 @@ Po potvrdení údajov a dostupnosti WordCraftu:
 3. Otvor nový dokument vo WordCrafte v živom režime.
 4. Vlož názov, predmet a tému, miesto na meno a dátum, pokyny, úlohy a dostatok priestoru na odpovede. Do žiackej verzie nevkladaj počty bodov pri úlohách, bodové maximum, údaj o získaných bodoch ani pokyny typu „za každú odpoveď získavaš 1 bod“. Bodovanie patrí výhradne do samostatného učiteľského kľúča.
 5. Použi primerané nadpisy, číslovanie, tabuľky, odrážky, obrázky alebo page breaky. Všetky prvky musia byť upraviteľné vo WordCrafte.
-6. Ulož dokument ako nový súbor `.docx` na absolútnu cestu. Neprepisuj existujúci súbor bez výslovného súhlasu.
+6. Ulož dokument ako nový súbor `.docx` na absolútnu cestu podľa pravidiel ukladania nižšie. Neprepisuj existujúci súbor bez výslovného súhlasu.
 7. Dokument nechaj otvorený vo WordCrafte a oznám používateľovi, že ho môže priebežne sledovať a upravovať.
 
 Pri tvorbe priebežne informuj iba o dôležitých fázach: kontrola WordCraftu, otvorenie dokumentu, vloženie obsahu, kontrola strán a uloženie. Nevypisuj používateľovi každú jednotlivú MCP operáciu.
@@ -140,6 +142,14 @@ Počet strán je požiadavka na skutočný layout dokumentu, nie iba na množstv
 
 Predvolený výstup je jeden žiacky `.docx` otvorený vo WordCrafte.
 
+### Ukladanie podľa tried
+
+Predvolene ukladaj všetky finálne výstupy do systémového priečinka Dokumenty aktuálneho používateľa, v ňom do `Pisomky` a následne do priečinka podľa triedy, napríklad `Dokumenty/Pisomky/5.A/`. Písomka aj jej samostatný učiteľský kľúč patria do toho istého priečinka triedy. Chýbajúce priečinky vytvor automaticky v rámci povolení hostiteľa. Inú výslovne zadanú cieľovú cestu používateľa rešpektuj.
+
+Na Windows zisti skutočnú systémovú cestu Dokumentov, napríklad pomocou `[Environment]::GetFolderPath('MyDocuments')`; zohľadni aj presmerovanie do OneDrive. Nepoužívaj natvrdo meno používateľa, aktuálny projekt ani predpoklad `C:/Users/.../Documents`. Keď prostredie nevie systémové Dokumenty zistiť alebo k nim nemá prístup, oznám konkrétne obmedzenie a vyžiadaj cieľovú cestu alebo potrebné povolenie; neukladaj inde potichu.
+
+Označenie triedy používaj len ako jeden názov podpriečinka. Odstráň neplatné znaky pre názov súboru, nepripusť absolútnu cestu ani `..` a výslednú cestu over v rámci `Dokumenty/Pisomky`. Súbory pomenúvaj zrozumiteľne podľa predmetu, témy, triedy a dátumu, napríklad `MAT_Zaokruhlovanie_5.A_2026-10-26.docx` a `MAT_Zaokruhlovanie_5.A_2026-10-26_kluc.docx`. Pri kolízii vytvor nový názov s poradovým číslom. V závere uveď odkazy na uložené súbory a triedu.
+
 ### Samostatné okno pre každý dokument
 
 Každý vytvorený dokument musí mať vlastné viditeľné okno WordCraftu. Písomka, učiteľský kľúč a prípadné varianty musia zostať súčasne otvorené, každý vo svojom okne. Nestačí prepínať dokumenty v jednom okne alebo na konci znovu otvoriť písomku namiesto kľúča.
@@ -166,6 +176,7 @@ Pri súhlase s kľúčom vytvor samostatný `.docx` so zhodným číslovaním ú
 Pred odovzdaním potvrď internou kontrolou:
 
 - dokument je uložený ako `.docx`;
+- finálne súbory sú v systémových `Dokumenty/Pisomky/<trieda>/` alebo na používateľom výslovne zadanej ceste;
 - WordCraft je otvorený na finálnom dokumente;
 - každý výstup vrátane učiteľského kľúča je otvorený vo vlastnom viditeľnom okne WordCraftu a písomka zostala otvorená počas tvorby kľúča;
 - skutočný počet strán zodpovedá zadaniu alebo je odchýlka oznámená;
